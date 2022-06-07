@@ -5,6 +5,7 @@ body {
     display: inline-block;
     width: 30%;
     border: 1px solid black;
+    margin: 2px;
     padding: 10px;
     height: 450px;
     vertical-align: bottom;
@@ -19,5 +20,21 @@ body {
 }
 .car-img>img{
     height: 100%;
+    width: 100%;
     object-fit: cover;
+}
+.carline{
+    padding-left: 150px;
+}
+.car-name{
+    color: navy;
+}
+.bold {
+    font-weight: 700;
+}
+.car-desc {
+    height: 70px;
+}
+.car-price {
+    color: darkgreen;
 }
