@@ -1,0 +1,23 @@
+body {
+    background: url('https://krot.info/uploads/posts/2021-01/1610503797_2-p-belii-neitralnii-fon-2.jpg');
+}
+.car{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    height: 450px;
+    vertical-align: bottom;
+}
+.car-img{
+    height: 250px;
+    text-align: center;
+}
+.car-p{
+    height: 180px;
+    text-align: center;
+}
+.car-img>img{
+    height: 100%;
+    object-fit: cover;
+}
