@@ -1,6 +1,11 @@
 body {
     background: url('https://krot.info/uploads/posts/2021-01/1610503797_2-p-belii-neitralnii-fon-2.jpg');
 }
+.foncar {
+   background: url('https://a.d-cd.net/34f189es-960.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 .car{
     display: inline-block;
     width: 30%;
@@ -37,4 +42,22 @@ body {
 }
 .car-price {
     color: darkgreen;
+}
+.tablcar {
+    display: inline-block;
+    width: 100%;
+    border: 3px solid black;
+    margin: 2px;
+    /* padding: 10px; */
+    height: 900px;
+    vertical-align: bottom;
+}
+.str {
+    display: inline-block;
+    width: 100%;
+    border: 3px solid black;
+    /* margin: 2px; */
+    padding: 10px;
+    height: 100px;
+    vertical-align: bottom;  
 }
