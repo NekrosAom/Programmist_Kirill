@@ -45,7 +45,7 @@ body {
 }
 .tablcar {
     margin: 20px auto;
-    height: 900px;
+    height: 90%;
     width: 1000px;
     vertical-align: bottom;
     background: white;
@@ -57,6 +57,7 @@ body {
     height: 40px;
     vertical-align: bottom; 
     background: rgb(226, 221, 221); 
+    border-bottom: 1px solid gray
 }
 
 html, body, div, span, applet, object, iframe,
@@ -120,5 +121,8 @@ table {
 }
 .textcar div {
     display: inline-block;
-    width: 50%;
+    width: 49%;
 }
+.textcar:last-child {
+    border-bottom: 0px;
+  }
