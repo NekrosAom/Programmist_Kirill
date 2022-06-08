@@ -2,7 +2,7 @@ body {
     background: url('https://krot.info/uploads/posts/2021-01/1610503797_2-p-belii-neitralnii-fon-2.jpg');
 }
 .foncar {
-   background: url('https://a.d-cd.net/34f189es-960.jpg');
+   background: url('https://a.d-cd.net/29c0758s-960.jpg');
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -44,16 +44,19 @@ body {
     color: darkgreen;
 }
 .tablcar {
-    border: 3px solid black;
-    margin: 2px;
+    margin: 20px auto;
     height: 900px;
+    width: 1000px;
     vertical-align: bottom;
+    background: white;
+    opacity: 0.92;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .str {
-    border: 3px solid black;
     padding: 10px;
-    height: 100px;
-    vertical-align: bottom;  
+    height: 40px;
+    vertical-align: bottom; 
+    background: rgb(226, 221, 221); 
 }
 
 html, body, div, span, applet, object, iframe,
@@ -98,4 +101,24 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.zagolov {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.textcar {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(214, 206, 206);
+    margin-left: 25px;
+    margin-right: 25px;
+}   
+.textcar span {
+    font-size: 15px;
+}
+.textcar div {
+    display: inline-block;
+    width: 50%;
 }
